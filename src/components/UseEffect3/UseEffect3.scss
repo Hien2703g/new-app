@@ -1,0 +1,29 @@
+.product{
+    &_list{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &_item{
+        width: 40%;
+        margin: 2% 2% 30px 1%;
+        border: 1px solid #ddd ;
+    }
+    &_img{
+        width: 100%;
+        aspect-ratio: 4/3;
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    &_title{
+        margin-top:10px;
+        margin-bottom: 10px;
+        font-size:18px;
+    }
+    &_price{
+        font-weight: 600;
+        color: red;
+    }
+}
